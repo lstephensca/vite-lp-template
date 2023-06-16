@@ -1,0 +1,48 @@
+$dev-color-white: #ffffff;
+$dev-color-black: #000000;
+$dev-color-red: #ef4444;
+$dev-color-orange: #f97316;
+$dev-color-yellow: #eab308;
+$dev-color-green: #22c55e;
+$dev-color-emerald: #10b981;
+$dev-color-sky: #0ea5e9;
+$dev-color-purple: #a855f7;
+$dev-color-rose: #f43f5e;
+
+$color-white: #ffffff;
+$color-black: #000000;
+
+$color-sky-100: #ebf8ff;
+$color-sky-200: #bee3f8;
+$color-sky-300: #90cdf4;
+$color-sky-400: #63b3ed;
+$color-sky-500: #4299e1;
+$color-sky-600: #3182ce;
+$color-sky-700: #2b6cb0;
+$color-sky-800: #2c5282;
+$color-sky-900: #2a4365;
+
+$dev-colors: (
+  "red": $dev-color-red,
+  "orange": $dev-color-orange,
+  "yellow": $dev-color-yellow,
+  "green": $dev-color-green,
+  "emerald": $dev-color-emerald,
+  "sky": $dev-color-sky,
+  "purple": $dev-color-purple,
+  "rose": $dev-color-rose,
+);
+
+$theme-colors: (
+  "primary": (
+    100: $color-sky-100,
+    200: $color-sky-200,
+    300: $color-sky-300,
+    400: $color-sky-400,
+    500: $color-sky-500,
+    600: $color-sky-600,
+    700: $color-sky-700,
+    800: $color-sky-800,
+    900: $color-sky-900,
+  ),
+);

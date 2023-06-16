@@ -1,0 +1,21 @@
+{
+  "name": "vite-lp-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "author": "Louis Stephens",
+  "description": "A template for building landing pages with Vite",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.1",
+    "sass": "^1.63.4",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  }
+}

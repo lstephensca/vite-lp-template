@@ -1,0 +1,15 @@
+@use "../abstracts/colors" as *;
+
+:where(.dev-preview) {
+  @each $color, $value in $dev-colors {
+    --dev-color-#{$color}: #{$value};
+  }
+}
+
+:root {
+  @each $color, $value in $theme-colors {
+    @each $shade, $hex in $value {
+      --color-#{$color}-#{$shade}: #{$hex};
+    }
+  }
+}
