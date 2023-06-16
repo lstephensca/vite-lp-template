@@ -12,13 +12,13 @@ Currently, it is very barebones and I will be adding more to it as I need it.
 
 ## Build Structure
 
-dist
-├── index.html
-├── css
-│ └── CSS_NAME.css
-├── js
-│ └── main.js
-├── images
-│ ├── header.png
-│ ├── image-one.png
-│ └── image-two.png
+- dist
+  - index.html
+  - css
+    - CSS_NAME.css
+  - js
+    - main.js
+  - images
+    - header.png
+    - image-one.png
+    - image-two.png
